@@ -1,6 +1,6 @@
     pragma solidity 0.7.5;
     
-    import "./Destroyable.sol"; //Destroyable inherits Ownable
+    import "./Destroyable.sol"; //Destroyable inherits Ownable -> killswitch function for self destruct and onlyOwner modifier to check authorization
     
     contract MultiSigWallet is Destroyable{
         
